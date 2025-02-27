@@ -235,6 +235,10 @@
         .main{
             background-size: cover ;
         }
+         .nav-list{
+letter-spacing: -1px;
+margin-right: 15px;
+        }
         /* fim main*/
         /*inicio sobre*/
         .about{
