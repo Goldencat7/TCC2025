@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital@0;1&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Open Sans', 'Sans-serif';
+}
+/*nav start*/
+
+.nav{
+    background-color: #000000;
+    height: 80px;
+    width: 100%;
+    display: flex ; 
+    justify-content: flex-end;      
+    position: sticky;
+    top: 0;
+    z-index: 9;
+} 
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 28px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #ddd;
+    padding :15px;
+}
+
+.nav-list a:hover{
+    color: #ddd;
+}
+.nav-list{
+    transition: 0.9s;
+}
+.nav-list:hover{
+    transform: scale(1.1);  
+}
+.nav h1{
+    align-items: center;
+    display: flex;
+    padding-right: 883px;
+   color: #ddd;
+}
+    /*nav end*/
+#menuh{
+    list-style: none;
+    padding: 0;
+    
+}
+
+#menuh li {
+display: inline;
+padding: 70px;
+}
+
+
+
+  
